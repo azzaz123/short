@@ -19,10 +19,10 @@ PORT=3000
 # If you leave this blank anyone will be able to shorten URLs
 API_KEY=gDEzEoiUqmXWQdwjtERGYukGrLDaQPco
 # The hostname of this API instance
-HOSTNAME=api.example.com
+HOSTNAME=api.localhost
 # The base URL to build shortened URLs from
 # If you leave this blank clients will have to assemble shortened URLs themselves
-SHORTENED_BASE_URL=https://example.com
+SHORTENED_BASE_URL=https://localhost
 
 # JSON array of hostnames or domain names that are prevented from being shortened
 # If you leave this blank users will be allowed to shorten URLs with the same hostname as your instance
